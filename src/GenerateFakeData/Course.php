@@ -28,6 +28,7 @@ class Course extends AbstractGenerate
      */
     public static function getData()
     {
+        self::loadData();
         return self::$data;
     }
 }

@@ -2,8 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-use Ar414\GenerateFakeData\Course;
 
-$data = Course::generate();
+$data = Ar414\GenerateFakeData\Course::generate();
 var_dump($data);
 
